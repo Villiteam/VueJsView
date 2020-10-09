@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,
+html {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+a {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    text-decoration: none;
+}
+a:focus {
+    outline: none !important;
+}
+a:hover {
+    color: #fc00ff;
+    border-color: #fc00ff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666;
+    margin: 0px;
+}
+ul,
+li {
+    margin: 0px;
+    list-style-type: none;
+}
+textarea,
+input,
+select {
+    outline: none;
+    border: none;
+}
+textarea:focus,
+input:focus,
+select:focus {
+    outline: none !important;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+textarea:focus:-ms-input-placeholder {
+    color: transparent;
+}
+input::-webkit-input-placeholder {
+    color: #555;
+}
+input:-moz-placeholder {
+    color: #555;
+}
+input::-moz-placeholder {
+    color: #555;
+}
+input:-ms-input-placeholder {
+    color: #555;
+}
+textarea::-webkit-input-placeholder {
+    color: #555;
+}
+textarea:-moz-placeholder {
+    color: #555;
+}
+textarea::-moz-placeholder {
+    color: #555;
+}
+textarea:-ms-input-placeholder {
+    color: #555;
+}
+label {
+    display: block;
+    margin: 0;
+}
+button {
+    outline: none !important;
+    border: none !important;
+    background: transparent;
+}
+button:hover {
+    cursor: pointer;
+}
+iframe {
+    border: none !important;
+}
+.Wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+}
