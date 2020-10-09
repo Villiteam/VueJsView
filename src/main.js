@@ -1,9 +1,9 @@
 import "@babel/polyfill";
 import "mutationobserver-shim";
 import Vue from "vue";
-import "./Plugins/bootstrap-vue";
+import "./plugins/bootstrap-vue";
 import App from "./App.vue";
-import router from "./Router";
+import router from "./router";
 
 import "@/assets/Css/Main.css";
 
