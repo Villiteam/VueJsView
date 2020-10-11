@@ -14,6 +14,16 @@ const routes = [
         name: "Login",
         component: () => import("../views/Index/Login.vue"),
     },
+    {
+        path: "/dashboard",
+        name: "DashBoard",
+        component: () => import("../views/DashBoard/Main.vue"),
+    },
+    {
+        path: "/404",
+        name: "404",
+        component: () => import("../views/Error/404.vue"),
+    },
 ];
 
 const router = new VueRouter({

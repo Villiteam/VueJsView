@@ -1,0 +1,81 @@
+.Wrap {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Left {
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #fff;
+    z-index: 880;
+    left: 0;
+    background-color: #583a63;
+}
+
+.SideBar {
+    padding: 0;
+    margin: 0;
+}
+
+.DropDown {
+    position: relative;
+}
+
+.SideBarLink {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    width: 100%;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ebecf1;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.SideBarLink:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #ebecf1;
+}
+
+.SideBarIcon {
+    width: 28px;
+    font-size: 15px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.SideBarTitle {
+    margin-top: 3px;
+    width: 100%;
+}
+
+.Profile {
+    background-color: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    height: 70px;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.ProfileImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.ProfileName {
+    margin-left: 15px;
+    font-size: medium;
+    color: #ebecf1;
+}
